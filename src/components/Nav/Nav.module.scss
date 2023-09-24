@@ -1,0 +1,45 @@
+@import '@/styles/variables.scss';
+
+$nav-height: 60px;
+
+.nav{
+    height: $nav-height;
+    background-color: $dark-grey;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: $white;
+    padding: 0 50px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: $white;
+}
+
+.logo {
+
+}
+
+.imdb__pro{
+
+}
+
+.menu__icon {
+  font-size: 1.7rem;
+  color: $white;
+  cursor: pointer;
+}
+
+.watchlist{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: $white;
+}
